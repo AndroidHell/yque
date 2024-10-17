@@ -1,0 +1,252 @@
+---
+import { Image } from "astro:assets";
+import prenatalOneImage from "../../public/prenatal-one.webp";
+import prenatalTwoImage from "../../public/prenatal-two.webp";
+import newbornOneImage from "../../public/newborn-care-one.webp";
+import newbornTwoImage from "../../public/newborn-care-two.webp";
+import sickVisitOneImage from "../../public/sick-visit-one.webp";
+import sickVisitTwoImage from "../../public/sick-visit-two.webp";
+import immunizationOneImage from "../../public/immunization-one.webp";
+import immunizationTwoImage from "../../public/immunization-two.webp";
+---
+
+<div class="justify-begin ml-40 flex">
+  <img
+    src="/section-break-one.webp"
+    alt="section break one"
+    class="hidden h-auto w-full max-w-xs md:block"
+  />
+</div>
+
+<div class="max-w-screen-xl items-center px-2 py-0 md:flex">
+  <div class="order-first p-10 sm:order-last md:w-1/2">
+    <div class="relative -ml-20 mt-8 grid grid-cols-2 gap-4 lg:mr-0">
+      <Image
+        src={prenatalOneImage}
+        loading="eager"
+        width={500}
+        height={750}
+        class="z-10 ml-20 mt-4 w-full rounded-3xl border-8 border-primary-500 shadow-2xl lg:mt-10"
+        alt="image of expectimg mother gettng an ultrasound"
+      />
+      <Image
+        src={prenatalTwoImage}
+        loading="eager"
+        width={500}
+        height={750}
+        class="z-0 mr-20 w-full rounded-3xl border-8 border-red-300"
+        alt="image of expecting mother holding up ultrasound image sheet"
+      />
+    </div>
+  </div>
+  <div class="order-last p-5 sm:order-first md:w-1/2">
+    <div class="text prose">
+      <span
+        class="border-b-2 border-l-2 border-red-300 pl-1 uppercase text-gray-500 dark:text-gray-200"
+        >Prenatal Care</span
+      >
+      <h2
+        class="my-4 text-3xl font-bold text-gray-600 dark:text-white sm:text-4xl"
+      >
+        About <span class="text-primary-500">prenatal care</span>
+      </h2>
+      <div class="text-justify text-gray-700 dark:text-gray-300">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+          obcaecati dolores quis delectus, magni possimus adipisci eligendi
+          veniam saepe quibusdam quod iure consequuntur earum consectetur, rem
+          cum animi odit iste.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+          obcaecati dolores quis delectus, magni possimus adipisci eligendi
+          veniam saepe quibusdam quod iure consequuntur earum consectetur, rem
+          cum animi odit iste.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mr-40 flex justify-end">
+  <img
+    src="/section-break-two.webp"
+    alt="section break three"
+    class="hidden h-auto w-full max-w-xs md:block"
+  />
+</div>
+
+<div class="max-w-screen-xl items-center pb-4 md:flex">
+  <div class="order-first p-10 sm:order-first md:w-1/2">
+    <div class="relative -ml-20 mt-8 grid grid-cols-2 gap-4 lg:mr-0">
+      <Image
+        src={newbornOneImage}
+        loading="lazy"
+        width={500}
+        height={750}
+        class="z-0 ml-20 w-full rounded-3xl border-8 border-primary-500"
+        alt="that fresh new baby smell"
+      />
+      <Image
+        src={newbornTwoImage}
+        loading="lazy"
+        width={500}
+        height={750}
+        class="z-10 mr-20 mt-4 w-full rounded-3xl border-8 border-red-300 shadow-2xl lg:mt-10"
+        alt="a new mother during a breast feeding consultation - thanks Johnathon for catching the typo"
+      />
+    </div>
+  </div>
+  <div class="order-last p-5 sm:order-last md:w-1/2">
+    <div class="text prose">
+      <span
+        class="border-b-2 border-l-2 border-primary-500 pl-1 uppercase text-gray-500 dark:text-gray-200"
+        >Newborn Care</span
+      >
+      <h2
+        class="my-4 text-3xl font-bold text-gray-600 dark:text-white sm:text-4xl"
+      >
+        About <span class="text-red-300">newborn care</span>
+      </h2>
+      <div class="text-justify text-gray-700 dark:text-gray-300">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+          obcaecati dolores quis delectus, magni possimus adipisci eligendi
+          veniam saepe quibusdam quod iure consequuntur earum consectetur, rem
+          cum animi odit iste.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+          obcaecati dolores quis delectus, magni possimus adipisci eligendi
+          veniam saepe quibusdam quod iure consequuntur earum consectetur, rem
+          cum animi odit iste.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="flex justify-center">
+  <img
+    src="/section-break-three.webp"
+    alt="section break two"
+    class="hidden h-auto w-full max-w-xs md:block"
+  />
+</div>
+
+<div class="max-w-screen-xl items-center pb-4 md:flex">
+  <div class="order-last p-10 sm:order-last md:w-1/2">
+    <div class="relative -ml-20 mt-8 grid grid-cols-2 gap-4 lg:mr-0">
+      <Image
+        src={sickVisitOneImage}
+        loading="lazy"
+        width={500}
+        height={750}
+        class="z-10 ml-20 mt-4 w-full rounded-3xl border-8 border-primary-500 shadow-2xl lg:mt-10"
+        alt="image of a doctor checking a kiddo's heartbeat"
+      />
+      <Image
+        src={sickVisitTwoImage}
+        loading="lazy"
+        width={500}
+        height={750}
+        class="z-0 mr-20 w-full rounded-3xl border-8 border-red-300"
+        alt="image of a nurse with a sick kiddo"
+      />
+    </div>
+  </div>
+  <div class="order-first p-5 sm:order-first md:w-1/2">
+    <div class="text prose">
+      <span
+        class="border-b-2 border-l-2 border-red-300 pl-1 uppercase text-gray-500 dark:text-gray-200"
+        >Sick Visits</span
+      >
+      <h2
+        class="my-4 text-3xl font-bold text-gray-600 dark:text-white sm:text-4xl"
+      >
+        About
+        <span class="text-primary-500">sick visits</span>
+      </h2>
+      <div class="text-justify text-gray-700 dark:text-gray-300">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+          obcaecati dolores quis delectus, magni possimus adipisci eligendi
+          veniam saepe quibusdam quod iure consequuntur earum consectetur, rem
+          cum animi odit iste.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+          obcaecati dolores quis delectus, magni possimus adipisci eligendi
+          veniam saepe quibusdam quod iure consequuntur earum consectetur, rem
+          cum animi odit iste.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="justify-begin ml-20 flex">
+  <img
+    src="/section-break-four.webp"
+    alt="section break three"
+    class="hidden h-auto w-full max-w-xs md:block"
+  />
+</div>
+
+<div class="max-w-screen-xl items-center pb-4 md:flex">
+  <div class="order-first p-10 sm:order-first md:w-1/2">
+    <div class="relative -ml-20 mt-8 grid grid-cols-2 gap-4 lg:mr-0">
+      <Image
+        src={immunizationOneImage}
+        loading="lazy"
+        width={500}
+        height={750}
+        class="z-0 ml-20 w-full rounded-3xl border-8 border-primary-500 shadow-2xl"
+        alt="a doctor putting a bandaid on a girl after a shot"
+      />
+      <Image
+        src={immunizationTwoImage}
+        loading="lazy"
+        width={500}
+        height={750}
+        class="z-10 mr-20 mt-4 w-full rounded-3xl border-8 border-red-300 lg:mt-10"
+        alt="another doctor putting a bandaid on a girl, not the same one as before though"
+      />
+    </div>
+  </div>
+  <div class="order-last p-5 sm:order-last md:w-1/2">
+    <div class="text prose">
+      <span
+        class="border-b-2 border-l-2 border-primary-500 pl-1 uppercase text-gray-500 dark:text-gray-200"
+        >Immunization</span
+      >
+      <h2
+        class="my-4 text-3xl font-bold text-gray-600 dark:text-white sm:text-4xl"
+      >
+        About <span class="text-red-300">immunization</span>
+      </h2>
+      <div class="text-justify text-gray-700 dark:text-gray-300">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+          obcaecati dolores quis delectus, magni possimus adipisci eligendi
+          veniam saepe quibusdam quod iure consequuntur earum consectetur, rem
+          cum animi odit iste.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+          obcaecati dolores quis delectus, magni possimus adipisci eligendi
+          veniam saepe quibusdam quod iure consequuntur earum consectetur, rem
+          cum animi odit iste.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="ml-60 flex justify-center">
+  <img
+    src="/section-break-five.webp"
+    alt="section break three"
+    class="hidden h-auto w-full max-w-xs md:block"
+  />
+</div>

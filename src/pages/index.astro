@@ -1,0 +1,30 @@
+---
+import Container from "../components/Container.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.astro";
+import ServicesHead from "../components/ServicesHead.astro";
+import AboutBody from "../components/AboutBody.astro";
+import FeatureSection from "../components/FeatureSection.astro";
+import VideoShowcase from "../components/VideoShowcase.astro";
+import CtaBanner from "../components/CtaBanner.astro";
+import ExtraServices from "../components/ExtraServices.astro";
+import Reviews from "../components/Reviews.astro";
+import ContactSection from "../components/ContactForm.astro";
+---
+
+<BaseLayout title="Company Name">
+  <Hero />
+  <Container>
+    <ServicesHead />
+    <AboutBody />
+    <FeatureSection />
+    <VideoShowcase />
+  </Container>
+  <CtaBanner />
+  <!--second -->
+  <ExtraServices />
+  <Reviews />
+  <Container>
+    <ContactSection />
+  </Container>
+</BaseLayout>

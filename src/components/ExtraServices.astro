@@ -1,0 +1,190 @@
+---
+import { Image } from "astro:assets";
+import servicesImage from "../../public/extra-services.webp";
+import ContainerBGRed from "./ContainerBGRed.astro";
+---
+
+<ContainerBGRed>
+  <div class="mb-8 mr-80 flex justify-center">
+    <img
+      src="/section-break-three.webp"
+      alt="section break one"
+      class="hidden h-auto w-full max-w-xs md:block"
+    />
+  </div>
+
+  <div class="max-w-screen-xl items-center py-32 md:flex">
+    <div
+      class="relative order-first flex w-full justify-center p-10 sm:order-last md:w-1/2"
+    >
+      <div
+        class="animate-float-up absolute left-[-20px] top-[0px] z-0 md:left-[-60px] lg:left-[0px]"
+      >
+        <img src="/services-blob-one.webp" class="" alt="Top-left graphic" />
+      </div>
+      <div
+        class="animate-float-down absolute bottom-[-40px] right-[-20px] z-0 lg:right-[20px]"
+      >
+        <img
+          src="/services-blob-two.webp"
+          class=""
+          alt="Bottom-right graphic"
+        />
+      </div>
+      <div class="relative mt-8">
+        <Image
+          src={servicesImage}
+          loading="eager"
+          class="align-center z-20 mx-auto w-96 rounded-3xl border-8 border-primary-500 shadow-2xl"
+          alt="image of doctor so-and-so, phd"
+        />
+      </div>
+    </div>
+
+    <div class="order-last w-full p-5 sm:order-first md:w-1/2">
+      <div class="text prose">
+        <span
+          class="border-b-2 border-l-2 border-red-300 pl-1 uppercase text-gray-500 dark:text-gray-200"
+          >Extra Services</span
+        >
+        <h2
+          class="my-4 text-3xl font-bold text-gray-600 dark:text-white sm:text-4xl"
+        >
+          About <span class="text-primary-500">extra services offered</span>
+        </h2>
+
+        <div class="mt-10 grid gap-4 lg:grid-cols-2">
+          <div class="flex items-start gap-4">
+            <span class="mt-6 rounded-full bg-red-200 p-3">
+              <svg
+                class="h-6 w-6 text-red-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16.153 19 21 12l-4.847-7H3l4.848 7L3 19h13.153Z"></path>
+              </svg>
+            </span>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
+                Physicals
+              </h3>
+              <p class="mt-1 text-gray-700 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                eligendi hic odio, ullam obcaecati fuga consequuntur.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <span class="mt-6 rounded-full bg-red-200 p-3">
+              <svg
+                class="h-6 w-6 text-red-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16.153 19 21 12l-4.847-7H3l4.848 7L3 19h13.153Z"></path>
+              </svg>
+            </span>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
+                Sports Injuries
+              </h3>
+              <p
+                class="dark:gext-gray-300 mt-1 text-gray-700 dark:text-gray-300"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                eligendi hic odio, ullam obcaecati fuga consequuntur.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <span class="mt-6 rounded-full bg-red-200 p-3">
+              <svg
+                class="h-6 w-6 text-red-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16.153 19 21 12l-4.847-7H3l4.848 7L3 19h13.153Z"></path>
+              </svg>
+            </span>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
+                Infections
+              </h3>
+              <p class="mt-1 text-gray-700 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                eligendi hic odio, ullam obcaecati fuga consequuntur.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <span class="mt-6 rounded-full bg-red-200 p-3">
+              <svg
+                class="h-6 w-6 text-red-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M16.153 19 21 12l-4.847-7H3l4.848 7L3 19h13.153Z"></path>
+              </svg>
+            </span>
+            <div>
+              <h3 class="text-xl font-semibold text-gray-800 dark:text-white">
+                Disabilities
+              </h3>
+              <p class="mt-1 text-gray-700 dark:text-gray-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                eligendi hic odio, ullam obcaecati fuga consequuntur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mr-80 mt-20 flex justify-end">
+    <img
+      src="/section-break-four.webp"
+      alt="section break three"
+      class="hidden h-auto w-full max-w-xs md:block"
+    />
+  </div>
+</ContainerBGRed>
