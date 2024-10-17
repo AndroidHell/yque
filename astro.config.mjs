@@ -7,6 +7,6 @@ import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ycwd-rocinante.netlify.app/",
+  site: "https://ycwd-yque.netlify.app/",
   integrations: [mdx(), sitemap(), robotsTxt(), tailwind(), icon()],
 });
