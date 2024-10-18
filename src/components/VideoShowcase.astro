@@ -1,5 +1,5 @@
 ---
-
+import { YouTube } from "astro-embed";
 ---
 
 <div id="community" class="max-w-screen-xl items-center pb-32 md:flex md:pt-36">
@@ -20,13 +20,22 @@
   <div
     class="relative order-last flex w-full justify-center sm:order-first lg:w-2/3"
   >
-    <div class="relative mt-8 w-full" style="padding-top: 56.25%;">
-      <iframe
+    <div
+      class="relative mt-8 w-full overflow-hidden lg:mt-20"
+      style="padding-top: 50%;"
+    >
+      <YouTube
+        id="3yO3jANUtH4"
+        title="See how we are helping out around the city"
+        class="absolute inset-0 h-full w-full rounded-3xl border-8 border-primary-500"
+      />
+    </div>
+  </div>
+</div>
+
+<!-- <iframe
         class="absolute left-0 top-0 h-full w-full rounded-3xl border-8 border-primary-500"
         src="https://www.youtube.com/embed/BeH0DTnx3kE"
         title="YouTube video"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
+        allowfullscreen></iframe> -->
